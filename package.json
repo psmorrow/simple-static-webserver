@@ -1,0 +1,19 @@
+{
+	"name": "simple-static-webserver",
+	"version": "1.0.1",
+	"description": "A simple static webserver. The only non-simple thing it performs is GZIP.",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"author": {
+		"name": "Patrick Morrow"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/psmorrow/simple-static-webserver.git"
+	},
+	"dependencies": {
+		"mime": "~2.3.1"
+	}
+}
